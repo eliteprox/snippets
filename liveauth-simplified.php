@@ -30,9 +30,4 @@ try {
     http_response_code(500);
     echo 'Caught exception: ',  $e->getMessage(), "\n";
 }
-
-function right($str, $length) {
-    return substr($str, -$length);
-}
-
 ?>
