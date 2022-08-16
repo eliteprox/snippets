@@ -1,9 +1,7 @@
 <?php 
 include 'connect.php';
 
-//Get post data 
-
-// Takes raw data from the request
+// Takes raw data from the POST request
 $json = file_get_contents('php://input');
 $data = json_decode($json);
 $url = $data->{'url'};
