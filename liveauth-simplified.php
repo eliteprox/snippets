@@ -1,5 +1,7 @@
 <?php 
 include 'connect.php';
+//For use with the -authWebhookUrl flag in Livepeer Broadcaster mode.
+//Refer for documentation https://github.com/livepeer/go-livepeer/blob/master/doc/rtmpwebhookauth.md
 
 // Takes raw data from the POST request
 $json = file_get_contents('php://input');
